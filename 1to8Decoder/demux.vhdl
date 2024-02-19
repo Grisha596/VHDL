@@ -14,7 +14,7 @@ begin
     y6 <= (not s0) and s1 and s2 and a;
     y5 <= s0 and (not s1) and s2 and a;
     y4 <= (not s0) and (not s1) and s2 and a;
-    y3 <= s0 and s1 and (not s1) and a;
+    y3 <= s0 and s1 and (not s2) and a;
     y2 <= (not s0) and s1 and (not s2) and a;
     y1 <= s0 and (not s1) and (not s2) and a;
     y0 <= (not s0) and (not s1) and (not s2) and a;
